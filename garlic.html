@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<head>
+
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link href="normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+  <title>OBD</title>
+
+  <style>
+
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="shortcuts">
+    <ul>
+      <li class="shortJump">Jump:</li>
+      <li class="shortJump"><a class="bakeJumps" href="#headerBake">Top</a></li>
+      <li class="shortJump"><a class="bakeJumps" href="#garlicCalc">Garlic Calc</a></li>
+      <li class="shortJump"><a class="bakeJumps" href="#siteLinks">Site Links</a></li>
+    </ul>
+  </div>
+
+  <header id="headerBake">
+
+    <h1 class="headerCentered" style="margin-top: 50px;">Roasted Garlic <em>En Masse </em></h1>
+
+  </header>
+
+  <img class="textImage" src="images/garlicMedium.png">
+
+  <div class="textBox">
+    <p class="text">If you like garlic, one of the handiest things you can have in your kitchen arsenal is a big jar filled with roasted garlic and olive oil.  Kept in the fridge, it virtually never goes bad.  You can use it liberally as a condiment to kick any meal up to the next level, even plain old pasta (with a bit of salt added).
+    </p>
+    <p class="text">The bread recipe under "Let's Bake" involves some investment of time to read through the procedure.  Not so here.  But like the bread recipe, this is meant to be simple and still make something that's awesome.</p>
+    <p class="text">Here's what I recommend to make a whole bunch of roasted garlic at once:
+      <ul>
+            <li class="procedureList">The only special equipment you'll need is a heavy pot with a tight-fitting lid, like the enameled cast iron pot used to bake bread under "Let's Bake." Here's what I typically use:</li>
+      </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/redPotwithLid.jpg">
+            </figure>
+
+        <ul>
+            <li class="procedureList">Buy a bunch of garlic heads.  Don't be shy about the amount -- go for 10, 15, 20, whatever.</li>
+            <li class="procedureList">Pre-heat your oven to 300 degrees.</li>
+            <li class="procedureList">Put some olive oil on your hands and rub each head just to coat.  For 20 heads of garlic, I use less than 1 tablespoon of olive oil. Put all of the heads of garlic in your heavy pot.</li>
+        </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/garlicInPot2.jpg">
+            </figure>
+
+        <ul>
+            <li class="procedureList">It helps to put all of the heads upright in the pot.  Upside down heads tend to leak a large amount of "garlic juice" on the bottom of the pot, which then scorches during baking.</li>
+            <li class="procedureList">Put the pot, covered, in the pre-heated oven on the middle rack.  Cook for 2.5 - 3 hours. After 2.5 hours, you can check on the garlic by taking a head out and gently sawing off some of the bottom with a bread knife. Take a peek at what's there.</li>
+        </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/checkingGarlic2.jpg">
+            </figure>
+        <ul>
+            <li class="procedureList">  If you want the garlic more well-done, you can keep everything in the oven for another half hour and then test another head.  If you feel the garlic is just "steaming" itself and not caramelizing, you can take the lid off and give all the garlic heads a half an hour that way. Once you're happy with the "doneness" (typically after 2.5 - 3 hours, I find), take the pot out of the oven and let the garlic cool uncovered.  </li>
+        </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/garlicCooling.jpg">
+            </figure>
+
+        <ul>
+            <li class="procedureList"> Once cool, to extract the garlic out of a head, saw the bottom of the head off with a bread knife.  It should come off easily. Then squeeze the top of the garlic head gently to force all the cloves out through the open bottom at the same time. The garlic shown here was in the oven, covered, for 3 hours.</li>
+        </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/garlicSqueeze.jpg">
+            </figure>
+
+        <ul>
+            <li class="procedureList">Put all of the extracted garlic cloves (or resulting garlic paste) in a jar and add enough olive oil to cover.  Kept in the fridge, the garlic and oil should last almost forever. If you've just baked some bread, spread the garlic generously on the bread, add a bit more olive oil, sprinkle with salt, and indulge.</li>
+        </ul>
+
+            <figure>
+              <img class="imageBorder figureTopMargin" src="images/garlicAndBread.jpg">
+            </figure>
+
+  <img class="textImage dividerLine" src="images/dividerImg.png">
+
+      <p class="text">One logistical problem with roasting garlic <em> en masse </em> is knowing how much you are going to get out of it at the end.  To help you get a sense, I did some weighing and averaging and put together the garlic calculator below.  The drop down menu lets you add a bunch of garlic to the pot all at once, but there are buttons to add incremental heads of garlic if you'd like to see the effect.  The numbers at the bottom show the approximate cups of roasted garlic you'll get at the end.  Have fun!
+      </p>
+  </div>
+
+  <img id="garlicCalc" class="textImage dividerLine" src="images/dividerImg.png">
+
+  <h2 class="headerCentered listHead">Totally the Most Scientific Garlic Calculator In the Entire Universe</h2>
+
+  <div class="wrapperForFloating">
+
+    <div class="inputBox">
+      <p class="listHead">Select Number of Garlic Heads to Roast:</p>
+      <form style="display: inline; text-align: left; margin-left: 20px;">
+        <select id="garlicAmount" >
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+        </select>
+
+      </form>
+
+      <button class="submitGarlic">Calculate Garlic with Dropdown Menu</button>
+
+      <p></p>
+      <button class="addGarlic">Add a Head of Garlic</button>
+      <button class="removeGarlic">Remove a Head of Garlic</button>
+
+      <p> -------------------</p>
+      <p class="listHead">Claim the Trophies You Deserve <br /> (optional, no data is saved, promise):</p>
+      <p>Who acts like the unholy undead?<br />
+      <input id="vampire"></input></p>
+      <p>What is a disease you hate?<br />
+      <input id="disease"></input></p>
+      <p>Whom do you want to impress?<br />
+      <input id="impressed"></input></p>
+
+    </div>
+
+    <div class="redPotBox">
+
+      <div class="garlicContainer">
+      </div>
+
+    </div>
+
+    <div class="trophyCase">
+
+      <p id="trophyTitle">Trophies: </p>
+
+      <div id="firstTrophyCase" style="margin-top: -10px;">
+
+      </div>
+
+      <div id="secondTrophyCase">
+
+      </div>
+
+      <div id="thirdTrophyCase">
+
+      </div>
+
+    </div>
+
+  </div> <!--wrapperForFloating div-->
+
+  <div class="calculations wrapperForFloating">
+    <p class="garlicCalcBox">Total heads of garlic: <span id="totalHeads"></span></p>
+    <p class="garlicCalcBox">Approximate weight uncooked (g): <span id="approxWeightG"></span></p>
+    <p class="garlicCalcBox">Approximate weight uncooked (lbs): <span id="approxWeightLbs"></span></p>
+    <p class="garlicCalcBox">Approximate amount of roasted garlic: <span id="approxVolume"></span></p>
+
+  </div>
+
+  <footer id="siteLinks">
+    <u1 class="menuList">
+      <li class="menuList"><a class="normalJumps" href="index.html">Home</a></li>
+      <li class="menuList"><a class="normalJumps" href="letsBake.html">Let's Bake</a></li>
+      <li class="menuList"><a class="normalJumps" href="youDown.html">You Down with ODB?</a></li>
+      <li class="menuList"><a class="normalJumps" href="inspiration.html">Inspiration & Resources</a></li>
+    </ul>
+  </footer>
+
+  <script>
+
+    // assigning variables based on garlic weights
+  var gramsPerHead = 61
+  var lbsPerHead = gramsPerHead * 0.00220462
+    // The calculation below comes from 20 roasted garlic heads produced 1.75 cups of roasted garlic
+  var roastedVolPerHead = (1/20) * 1.75
+  var grandTotalGarlic = 0
+
+    // Could have saved user input to variables rather than an array.
+    // Using an array in this context makes the code a bit longer and harder to follow,
+    // but I wanted to play with an array.
+  var userInput = [ ]
+
+    // declaring variables for assigning to array indecies
+  var vampirePerson
+  var diseaseHated
+  var impressedPerson
+
+   // Assigns user input to arrays, if any user input.  Used later to check if any text should be
+   // added below the trophies
+  var checkForUserInput = function() {
+    vampirePerson = $('#vampire').val();
+    diseaseHated = $('#disease').val();
+    impressedPerson = $('#impressed').val();
+    userInput[0] = vampirePerson;
+    userInput[1] = diseaseHated;
+    userInput[2] = impressedPerson;
+  }
+
+    // Checks if there's enough garlic to award trophy and looks at checkForUserInput() to see if anything should be added to text for trophies
+  var checkForTrophy = function() {
+      // Checking for Bronze Trophy -- text for trophy only appears if user has inputted something in the input
+      // fields. Note that checkForUserInput is called right before checkForTrophy to check
+      // if anything is inputted in the text fields
+    if (grandTotalGarlic >= 5) {
+      if ((typeof userInput[0] === "undefined") || (userInput[0] === "")){
+        $('#firstTrophyCase').html('<img src="images/bronzeTrophy.png">')
+      } else {
+        $('#firstTrophyCase').html('<img src="images/bronzeTrophy.png"> <br />' + vampirePerson + ' will finally leave you alone.')
+      }
+    } else {
+      $('#firstTrophyCase').html('')
+    }
+      // Checking for silver trophy
+    if (grandTotalGarlic >= 10) {
+      if ((typeof userInput[1] === "undefined") || (userInput[1] === "")){
+        $('#secondTrophyCase').html('<img src="images/silverTrophy.png">')
+      } else {
+        $('#secondTrophyCase').html('<img src="images/silverTrophy.png"> <br /> Immune to ' + diseaseHated + '.')
+      }
+    } else {
+      $('#secondTrophyCase').html('')
+    }
+    // Checking for gold trophy
+    if (grandTotalGarlic >= 15) {
+      if ((typeof userInput[2] === "undefined") || (userInput[2] === "")) {
+        $('#thirdTrophyCase').html('<img src="images/goldTrophy.png">')
+      } else {
+        $('#thirdTrophyCase').html('<img src="images/goldTrophy.png"> <br />' + impressedPerson + ' has a crush on you.')
+      }
+    } else {
+      $('#thirdTrophyCase').html('')
+    }
+  }
+
+    // Updates garlic-related calculations in the results fields
+  var updateGarlicCalcs = function() {
+    $('#totalHeads').html(grandTotalGarlic);
+    $('#approxWeightG').html(grandTotalGarlic * gramsPerHead + " g");
+    $('#approxWeightLbs').html((grandTotalGarlic * lbsPerHead).toFixed(2) + " lbs");
+    $('#approxVolume').html((grandTotalGarlic * roastedVolPerHead).toFixed(2) + " cups");
+    checkForUserInput()
+    checkForTrophy()
+  }
+
+    // Takes the input from the drop down menu and runs it through other functions to update the page
+   var showGarlicDDMenu = function () {
+      var garlicDDString = $('#garlicAmount').val();
+        // Needed to add parseInt here b/c dropdown menu returns a string
+      var garlicDDAmount = parseInt(garlicDDString);
+      grandTotalGarlic = grandTotalGarlic + garlicDDAmount;
+      for (i = 0; i < grandTotalGarlic; i++) {
+        addingGarlicImg();
+      }
+      updateGarlicCalcs();
+  }
+
+    // When button hit to apply dropdown menu, this cleares the images in the pot and
+    // calls showGarlic() to adding new images and re-run garlic calcs
+  $('.submitGarlic').click(function() {
+    grandTotalGarlic = 0
+    $('.garlicContainer').empty()
+    showGarlicDDMenu();
+  })
+
+    //  Adds garlic image to pot, using Math.random to set coordinates within garlicContainer
+  var addingGarlicImg = function() {
+    // garlicContainer is 225 x 225, and garlic image is 100px x 100px, so math random multiplier has to be bw 1 and (225-100)
+    var newTop = Math.floor(Math.random()*125);
+    var newLeft = Math.floor(Math.random()*125);
+    var garlicHTML = '<img class="garlicImg" src="images/garlicSmall.png" style="position: absolute; top: ' + newTop + 'px; left: ' + newLeft + 'px;">';
+    $('.garlicContainer').append(garlicHTML)
+  }
+
+    // Calling addingGarlic() on button click, and then upates the garlic calcs like showGarlicDDMenu
+  $('.addGarlic').click(function() {
+    addingGarlicImg()
+    grandTotalGarlic = grandTotalGarlic + 1
+    if (grandTotalGarlic === 20) {
+      alert("SHE CANNA HANDLE MUCH MORE, CAP'N!")
+    }
+    updateGarlicCalcs()
+    checkForTrophy
+  })
+
+    // Creating function to remove garlic from pot and update garlic calcs
+  var removingGarlic = function () {
+    $('.garlicContainer img:last-child').remove()
+    if (grandTotalGarlic > 0 ) {
+      grandTotalGarlic = grandTotalGarlic - 1
+      updateGarlicCalcs()
+    }
+  }
+
+    // Calling removingGarlic() on button click
+  $('.removeGarlic').click(function() {
+    removingGarlic()
+  })
+
+  </script>
+
+</body>

@@ -1,0 +1,436 @@
+body {
+  font-family: "courier";
+  background-color: #c9e7f1;
+}
+
+
+#headerMain {
+  background-color: #FFC0CB;
+  border: 10px solid black;
+  height: 255px;
+  width: 1050px;
+  margin: 20px auto;
+}
+
+h1 {
+  margin-top: 50px;
+  line-height: 20px;
+  font-size: 56px;
+  color:black;
+}
+
+.headerTitle {
+  padding: 10px 20px 0px 30px;
+
+}
+
+.headerImg {
+  margin: 0px 30px 0px 0px;
+  position: relative;
+  width: 150px;
+  height: 200px;
+
+}
+
+.headerCentered {
+  margin-top: 15px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  line-height: 20px;
+  color:black;
+}
+
+
+.menu{
+  margin: 25px 0 0 0;
+  text-align: center;
+  border-top: 10px solid black;
+  font-size: 15px;
+}
+
+.menuList {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  color:black;
+}
+
+.normalJumps {
+  color: black;
+}
+
+.normalJumps:hover {
+  color: #7f7f7f;
+}
+
+.normalJumps:active {
+  color: #b2b2b2;
+}
+
+.spacer {
+  height: 5px;
+}
+
+.textBox {
+  width: 800px;
+  margin: 0px auto;
+  overflow: auto;
+}
+
+.textImage {
+  display: block;
+  margin: 0px auto;
+}
+
+.text {
+  text-indent: 35px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.procedureListBox {
+  margin-left: 50px;
+}
+
+.procedureList {
+  font-size: 18px;
+  margin: 0px auto;
+}
+
+.floatLeft {
+  float: left;
+  margin: -5px;
+}
+
+.floatRight {
+  float: right;
+  margin: 10px 0 0 10px;
+
+}
+
+.shortcuts {
+  position:fixed;
+  width: 100px;
+  top: 30%;
+  right: 10px;
+}
+
+.shortJump {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #c9e7f1;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  width: 60px;
+  }
+
+#homeBread {
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+footer {
+  margin: 50px 0;
+  height: 25px;
+  padding-top: 20px;
+  text-align: center;
+  border-top: 10px solid black;
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Specific to letsBake.html */
+
+#headerBake {
+  background-color: #FFC0CB;
+  border: 10px solid black;
+  height: 125px;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.listHead {
+  text-decoration: underline;
+}
+
+.bakeJumps {
+  color: white;
+}
+
+.bakeJumps:hover {
+  color: #ff00ff;
+}
+
+.bakeJumps:active {
+  color: pink;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  margin: 30px auto;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+
+.dividerImage {
+  width: 300px;
+  height: 300px;
+}
+
+.dividerLine {
+  width: 150px;
+  height: 38px;
+
+}
+
+.blank {
+  background-color: gray;
+}
+
+.tableSpacer {
+  margin: 0 5px;
+}
+
+.inputTitle {
+  display: inline-block;
+  width: 470px;
+  text-align: right;
+}
+
+#inputDiv {
+  margin: 10px 0;
+}
+
+input {
+  border: 1px solid black;
+}
+
+#newFlour {
+  margin-right: -5px;
+}
+
+#submit {
+  margin-left: 360px;
+}
+
+figure {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.imageBorder {
+  border: 3px solid black;
+}
+
+.narrowHeader {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.narrowLines {
+    line-height: 25px;
+}
+
+
+/* Specific to garlic.html */
+
+/* this centers the wrapper for the floating elements */
+
+.figureTopMargin {
+  margin: 20px 0;
+}
+
+.wrapperForFloating {
+    /* for future reference, all I had to do to center three
+    adjacent divs was put them in a wrapper with an adequate specified
+     LENGTH.  Then floating them seems to have worked just fine*/
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.inputBox {
+  width: 300px;
+  height: 450px;
+  border: 2px solid black;
+  margin: 5px;
+  float: left;
+  font-size: 15px;
+  text-align: center;
+}
+
+#vampire, #disease, #impressed {
+  text-align: center;
+}
+
+.redPotBox {
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  float: left;
+  margin: 5px;
+  background-image: url("images/redPotAlt2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.garlicContainer {
+  width: 225px;
+  height: 225px;
+  position: relative;
+  top: 105px;
+  left: 115px;
+}
+
+.trophyCase {
+  width: 300px;
+  height: 450px;
+  border: 2px solid black;
+  margin: 5px;
+  float: left;
+  text-align: center;
+}
+
+#trophyTitle {
+  text-decoration: underline;
+  margin-top: 0px;
+
+}
+
+#firstTrophyCase, #secondTrophyCase, #thirdTrophyCase {
+  width: 300px;
+  height: 148px;
+  line-height: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.calculations {
+  clear: left;
+}
+
+.garlicCalcBox {
+  width: 500px;
+  border: 2px solid black;
+  padding: 3px;
+  margin: 5px auto;
+}
+
+/* Specific to youDown.html */
+
+#headerDown {
+  background-color: #FFC0CB;
+  border: 10px solid black;
+  height: 130px;
+  width: 1050px;
+  text-align:center;
+  margin: 20px auto;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 20px auto;
+  overflow: auto;
+}
+
+#danceHall {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  float: left;
+}
+
+#video {
+  display: block;
+  width: 350px;
+  height: 263px;
+  float: right;
+  clear: right;
+  margin: 60px 0px;
+}
+
+.img250{
+  width: 250px;
+  height: 250px;
+}
+
+.imgSmallFloated {
+  width: 150px;
+  height: 150px;
+}
+
+/* Specific to inspiration.html */
+
+#erheader {
+  background-color: #FFC0CB;
+  border: 10px solid black;
+  height: 125px;
+  width: 1100px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#er {
+  border: 10px solid black;
+  width: 500px;
+  height: 344px;
+  background-size: 105%;
+  background-position: center;
+  margin: 15px auto;
+}
+
+.erBk1 {
+  background: url("images/eleanorfast.gif");
+}
+
+.erBk2 {
+  background: url("images/eleanorfast-still.jpg");
+}
+
+#quote {
+  padding: 0px 15px 0px 15px;
+  margin: 10px auto;
+  color:white;
+  text-align: center;
+  font-size: 17px;
+}
+
+#attribute {
+  padding-left: 0px;
+  color: white;
+  font-size: 15px;
+  margin-left: 320px;
+}
+
+.erTitle {
+  width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.bookList {
+  font-size: 22px;
+}
